@@ -18,9 +18,16 @@ In Slack, you should see something like:
 ![alt text](readme-screenshot.png "Description goes here")
 
 ## Installation
+Install the binary directly:
 ```
-sudo wget -qO /usr/local/bin/msg https://raw.githubusercontent.com/w-p/msg/master/msg
+sudo wget -qO /usr/local/bin/msg https://raw.githubusercontent.com/w-p/msg/master/bin/msg
 sudo chmod +x /usr/local/bin/msg
+```
+Or build it:
+```
+git clone https://github.com/w-p/msg.git
+cd msg
+make && make install
 ```
 
 ## License
