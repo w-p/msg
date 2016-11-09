@@ -1,10 +1,10 @@
-.DEFAULT_GOAL := default
+.DEFAULT_GOAL := build
 
 clean:
 	sudo GOPATH=$$GOPATH go clean -r
 	sudo rm -f /usr/local/bin/msg
 
-default:
+build:
 	go build -o ./bin/msg
 
 install:

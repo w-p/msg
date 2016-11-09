@@ -24,10 +24,10 @@ func main () {
     app.Usage = "Send a message to a slack webhook"
     app.Version = "1.0.0"
     app.Authors = []cli.Author{
-      cli.Author{
-        Name:  "Will Palmer",
-        Email: "will@steelhive.com",
-      },
+        cli.Author{
+            Name:  "Will Palmer",
+            Email: "will@steelhive.com",
+        },
     }
 
     app.Flags = []cli.Flag {
